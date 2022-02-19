@@ -1,7 +1,7 @@
-package com.test;
+package com.login_test;
 
 import com.base.MobileAppBase;
-import com.module.LogIn;
+import com.login_module.LogIn;
 import org.testng.annotations.Test;
 
 public class LoginTest extends MobileAppBase {

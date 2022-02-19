@@ -1,4 +1,4 @@
-package com.module;
+package com.login_module;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;

@@ -18,12 +18,12 @@ public class MobileAppBase {
         DesiredCapabilities caps = new DesiredCapabilities();
 
         caps.setCapability("deviceName", "Redmi Note 7 Pro");
-        caps.setCapability("udid", "a19a259a");
+        caps.setCapability("udid", "192.168.0.132:5555");
         caps.setCapability("platformName", "Android");
         caps.setCapability("platformVersion", "10");
         caps.setCapability("appPackage", "com.consumermobileapp");
         caps.setCapability("appActivity", "com.consumermobileapp.MainActivity");
-        caps.setCapability("automatorName","UiAutomator2");
+        caps.setCapability("autoGrantPermissions", "true");
         caps.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 1000);
 
         driver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), caps);
