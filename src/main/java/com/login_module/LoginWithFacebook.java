@@ -25,12 +25,7 @@ public class LoginWithFacebook {
 
     @AndroidFindBy(xpath = "//*[contains(@text,'Continue')]")
     private AndroidElement click_Continue;
-
-    @AndroidFindBy(xpath = "//android.widget.EditText[@content-desc='otp_field']")
-    private AndroidElement enterOtp;
-
-    @AndroidFindBy(xpath = "//android.widget.TextView[@content-desc='skip_button']")
-    private AndroidElement skip;
+    
 
     public LoginWithFacebook(AndroidDriver ldriver) {
 
